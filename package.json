@@ -1,0 +1,30 @@
+{
+  "name": "express-es6-rest-api",
+  "version": "0.2.2",
+  "description": "Starter project for an ES6 RESTful Express API",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/developit/express-es6-rest-api.git"
+  },
+  "author": "Jason Miller <jason@developit.ca>",
+  "license": "Proprietary",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "compression": "^1.5.2",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "resource-router-middleware": "^0.5.1",
+    "paypal-express-checkout": "git+https://github.com/sean-madhavan/paypal-express-checkout.git"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-core": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "debug": "^2.2.0"
+  }
+}
